@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'print {$1}' /etc/passwd
+sed 's/ssh/sshd/g' /etc/passwd
